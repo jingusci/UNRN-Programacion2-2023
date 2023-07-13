@@ -1,0 +1,45 @@
+[submodule "archivos"]
+	path = archivos
+	url = git@github.com:INGCOM-UNRN-PII/TP-archivos.git
+[submodule "parcial-1"]
+	path = parcial-1
+	url = git@github.com:INGCOM-UNRN-PII/parcial-1.git
+[submodule "parcial-2"]
+	path = parcial-2
+	url = git@github.com:INGCOM-UNRN-PII/parcial-2.git
+[submodule "parcial-3"]
+	path = parcial-3
+	url = git@github.com:INGCOM-UNRN-PII/parcial-3.git
+[submodule "TP-objetos-1"]
+	path = TP-objetos-1
+	url = git@github.com:INGCOM-UNRN-PII/TP-objetos-1.git
+[submodule "TP-objetos-2"]
+	path = TP-objetos-2
+	url = git@github.com:INGCOM-UNRN-PII/TP-objetos-2.git
+[submodule "TP-objetos-3"]
+	path = TP-objetos-3
+	url = git@github.com:INGCOM-UNRN-PII/TP-objetos-3.git
+[submodule "TP-objetos-4"]
+	path = TP-objetos-4
+	url = git@github.com:INGCOM-UNRN-PII/TP-objetos-4.git
+[submodule "TP-1"]
+	path = TP-1
+	url = git@github.com:INGCOM-UNRN-PII/TP1-2023.git
+[submodule "TP-2"]
+	path = TP-2
+	url = git@github.com:INGCOM-UNRN-PII/TP2-2023.git
+[submodule "TP-Letrado"]
+	path = TP-Letrado
+	url = git@github.com:INGCOM-UNRN-PII/TP-Letrado.git
+[submodule "TP-arboles"]
+	path = TP-arboles
+	url = git@github.com:INGCOM-UNRN-PII/TP-arboles.git
+[submodule "TP-calculadora-polaca"]
+	path = TP-calculadora-polaca
+	url = git@github.com:INGCOM-UNRN-PII/TP-calculadora-polaca.git
+[submodule "TP-secuencias"]
+	path = TP-secuencias
+	url = git@github.com:INGCOM-UNRN-PII/TP-secuencias.git
+[submodule "TP-secuencias-2"]
+	path = TP-secuencias-2
+	url = git@github.com:INGCOM-UNRN-PII/TP-secuencias-2.git
