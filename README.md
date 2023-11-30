@@ -51,4 +51,8 @@ Aqui se encuentra el material principal de la cursada como fue dado.
    * Arreglos y matrices dispersas
    * Diccionarios, tablas de hash y funciones de extracto
  
- 
+
+# Grabaciones de las clases
+
+https://www.youtube.com/watch?v=BO_KZP8RRU8&list=PLF6ytX6i04u-B63p23wSse4-QZ3_5dif5
+
