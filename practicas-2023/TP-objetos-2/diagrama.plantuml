@@ -1,0 +1,64 @@
+@startuml
+!theme plain
+skinparam classAttributeIconSize 0
+
+abstract class Operacion{
+ {abstract} + int calcular()
+ {abstract} + String aCadena()
+}
+
+abstract class OperacionUnaria{
+ -simbolo:String
+ #operacion:Operacion
+ {abstract} +calcular()
+ +String aCadena()
+}
+
+abstract class OperacionBinaria{
+ -simbolo:String
+ #izquierdo:Operacion
+ #derecho:Operacion
+ {abstract} +calcular()
+ +String aCadena()
+}
+
+abstract class OperacionMultiple{
+ -simbolo:String
+ #ArrayList<Operacion> valores
+ +void agregar(Operacion op)
+ {abstract} +calcular()
+ +String aCadena()
+}
+
+class Numero{ 
+ -int valor
+ +int calcular()
+ +cambiarValor(int valor)
+ +String aCadena()
+}
+
+Operacion <|-- Numero
+
+Operacion <|-- OperacionBinaria
+OperacionBinaria <|-- Suma
+OperacionBinaria <|-- Resta
+OperacionBinaria <|-- Multiplicacion
+OperacionBinaria <|-- Division
+OperacionBinaria <|-- Exponenciacion
+
+Operacion <|-- OperacionUnaria 
+OperacionUnaria <|-- Invertir
+OperacionUnaria <|-- ValorAbsoluto
+OperacionUnaria <|-- Incremento
+OperacionUnaria <|-- Decremento
+
+Operacion <|-- OperacionMultiple
+OperacionMultiple <|-- Minimo
+OperacionMultiple <|-- Maximo
+OperacionMultiple <|-- SumaMultiple
+OperacionMultiple <|-- RestaMultiple
+OperacionMultiple <|-- Promedio
+OperacionMultiple <|-- Contar
+
+@enduml
+
