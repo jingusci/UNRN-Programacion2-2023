@@ -12,4 +12,43 @@ Este directorio contiene las practicas como submodulos de git (requiere permisos
 ### Presentaciones
 Aqui se encuentra el material principal de la cursada como fue dado.
 
+## Temas cubiertos
+(a grandes razgos)
 
+* El lenguaje de programación Java
+* Gestión de errores con excepciones
+* Testing con junit
+* Proyectos Java con Gradle
+* Streams a archivos
+* Documentación
+* Buenas practicas
+* Orientación a Objetos
+ - Identificación de Objetos, atributos y métodos
+ - Principios S.O.L.I.D.
+ - Tipos de atributos
+ - Ciclo de vida de un objeto
+ - Sobrecarga de métodos
+ - Relaciones (composición/agregación)
+ - Encapsulamiento
+ - Herencia
+ - Polimorfismo
+ - Identidad
+* Tipos genericos
+* Estructuras de datos
+ - Complejidad espacial y temporal
+ - Secuencias
+   * Conceptos y caracteristicas
+   * Arreglos
+   * Listas enlazadas (y variantes)
+   * Pilas
+   * Colas
+ - Arboles
+   * Conceptos y caracteristicas
+   * Recorridos
+   * Operaciones
+   * Tipos de arboles
+ - Otras estructuras
+   * Arreglos y matrices dispersas
+   * Diccionarios, tablas de hash y funciones de extracto
+ 
+ 
